@@ -1,0 +1,22 @@
+{
+  "askcliResourcesVersion": "2020-03-31",
+  "profiles": {
+    "default": {
+      "skillMetadata": {
+        "src": "./skill-package"
+      },
+      "code": {
+        "default": {
+          "src": "./lambda"
+        }
+      },
+      "skillInfrastructure": {
+        "userConfig": {
+          "runtime": "nodejs16.x",
+          "handler": "index.handler"
+        }
+      },
+      "skillId": "amzn1.ask.skill.d2b1993f-296e-4a0d-baed-196632e2a174"
+    }
+  }
+}
